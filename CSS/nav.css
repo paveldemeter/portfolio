@@ -1,0 +1,36 @@
+header nav {
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 27px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  padding: 0rem;
+  color: #f85204;
+  text-decoration: none;
+  border: 13px transparent solid;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+
+header nav ul li a:hover {
+  border-color: #f85204;
+}
+
+header nav ul li a.current {
+  border-color: #FAA195;
+}
+/*# sourceMappingURL=nav.css.map */

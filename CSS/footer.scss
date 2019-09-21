@@ -1,0 +1,70 @@
+@import './colors';
+
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+    
+.btn-light {
+  color:$orange;
+  width: auto;
+  font-size: 20px;
+}
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 15%;
+}
+
+#main-ftr {
+  color:$orange;
+}
+
+#main-ftr .footer-content {
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  align-items: center;
+}
+
+#main-ftr .footer-content .social .fab {
+  margin-right: 5rem;
+  border: 2px white solid;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
+  color:rgb(114, 40, 5) }
+#main-ftr .footer-content .social .fab:hover {
+background: rgb(248, 82, 4); }
+
+#main-ftr .footer-content .social .fas  {
+  margin-right: 5rem;
+  border: 2px white solid;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
+  color:rgb(114, 40, 5);
+}
+
+#main-ftr .footer-content .social .fab:hover {
+  background: rgb(248, 82, 4);
+}
+
+@media screen and (max-width: 800px){
+  #main-ftr .footer-content {
+    flex-direction: column;
+  }
+}

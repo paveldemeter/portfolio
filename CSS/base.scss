@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+@media screen and (max-width: 800px){
+    header a {
+        display: inline-block;
+        height: 2em;
+        overflow-y: hidden;
+    }
+}

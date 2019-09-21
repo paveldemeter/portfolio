@@ -1,0 +1,168 @@
+/* /* #header-home {
+  background: url("../images/index_background.JPG") right/cover fixed;
+  height: 100vh;
+  margin: auto; */
+  /* color: rgb(248, 82, 4);
+}
+
+#header-home .header-content {
+  text-align: center;
+}
+
+#header-home h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+#headingmain {
+  padding-top: 17.5%;
+  align-items: center; 
+}
+
+#page-d {
+  height: auto;
+  width: auto;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 17.5px;
+}
+
+#main-nav ul {
+  display: flex;
+}
+  
+#main-nav li {
+  padding: 1rem 10rem;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 10px transparent solid; */
+  /* padding-bottom: 0.5rem; */
+  /* transition: border-color 0.5s;
+}
+
+#main-nav a:hover {
+  border-color: rgb(248, 82, 4);
+}
+
+#main-nav a.current {
+  border-color: #FAA195;
+}
+
+
+body {
+    font-family: 'Saira Stencil One', cursive;
+    line-height: 0;
+    background: rgb(0, 0, 0); }
+
+
+.btn-main, .btn-light, .btn-dark {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border: none;
+    cursor: pointer; }
+    
+    .btn-light {
+        color:rgb(248, 82, 4);;
+        width: auto;
+        font-size: 20px;
+    }
+
+    button[class^="btn-"]:hover,
+    a[class^="btn-"]:hover,
+    input[class^="btn-"]:hover {
+      background-color: rgb(0, 0, 0);
+      border-radius: 15% }
+
+#main-ftr {
+  color:rgb(248, 82, 4);
+ }
+#main-ftr .footer-content {
+display: flex;
+justify-content: space-around;
+height: 5rem;
+align-items: center; }
+
+#main-ftr .footer-content .social .fab {
+margin-right: 5rem;
+border: 2px #fff solid;
+height: 20px;
+width: 20px;
+line-height: 20px;
+text-align: center;
+padding: 0.5rem;
+color:rgb(114, 40, 5) }
+#main-ftr .footer-content .social .fab:hover {
+background: rgb(248, 82, 4); }
+
+#main-ftr .footer-content .social .fas  {
+margin-right: 5rem;
+border: 2px #fff solid;
+height: 20px;
+width: 20px;
+line-height: 20px;
+text-align: center;
+padding: 0.5rem;
+color:rgb(114, 40, 5) }
+#main-ftr .footer-content .social .fab:hover {
+background: rgb(248, 82, 4); }
+
+
+.container1 {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+    #header-about {
+    background: url("../images/aboutbkgrd.jpg") right/cover fixed;
+    height: 100vh;
+    margin: auto;
+    color: rgb(248, 82, 4); }
+    #header-about .header-content {
+      text-align: center;}
+    #header-about h1 {
+      font-size: rem;
+      line-height: 0; }
+
+.container2 {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+    #header-work {
+    background: url("../images/workbkgrd.jpg") right/cover fixed;
+    height: 100vh;
+    margin: auto;
+    color: rgb(248, 82, 4); }
+    #header-work .header-content {
+      text-align: center;}
+    #header-work h1 {
+      font-size: rem;
+      line-height: 0; }
+
+.container3 {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+    #header-contact {
+    background: url("../images/contactbkgrd.jpg") right/cover fixed;
+    height: 100vh;
+    margin: auto;
+    color: rgb(248, 82, 4); }
+    #header-contact .header-content {
+      text-align: center;}
+    #header-contact h1 {
+      font-size: rem;
+      line-height: 0; }
+ */ 

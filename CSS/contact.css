@@ -1,0 +1,100 @@
+body {
+  background: url("../images/contactbkgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  height: 100vh;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  padding-top: 200px;
+}
+
+@media screen and (max-aspect-ratio: 6000 / 4000) {
+  body {
+    background-size: auto 100vh;
+  }
+}
+
+.heading {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.heading h3 {
+  color: #fffefd;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-animation-name: color2;
+          animation-name: color2;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: 1000;
+          animation-iteration-count: 1000;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.conlogo {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@-webkit-keyframes color2 {
+  0% {
+    color: whitesmoke;
+  }
+  25% {
+    color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    color: whitesmoke;
+  }
+  75% {
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    color: whitesmoke;
+  }
+}
+
+@keyframes color2 {
+  0% {
+    color: whitesmoke;
+  }
+  25% {
+    color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    color: whitesmoke;
+  }
+  75% {
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    color: whitesmoke;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
