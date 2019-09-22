@@ -13,7 +13,7 @@ The website was developed to be as simple as possible to navigate easily & obtai
 My opinion is sometimes simple is better, Easier to view & understand. The design of this website was based upon a wire-frame I drew up, I later decided to implement a bit more animation than I anticipated but I still wanted to continue with the simplicity. Throughout the site you have clickable links from images or icons to open various resources such as linkedin , Github & way to contact me. The email will automatically open up Outlook(Or any mail app) on any device so its easier to contact me, The phone icon will open up Face-time or you can simple copy the number and call me. (depending on your OS).
 
 ## Site Map
-![alt text](docs/home_page.png)
+![alt text](docs/screenshots/home_page.png)
 
 Here I have attached the main diagram of my site-map. easily navigated.
 
