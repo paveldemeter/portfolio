@@ -1,5 +1,5 @@
 body {
-  background: url("../images/contactbkgrd.jpg");
+  background: url("../../docs/images/workbkgrd.jpg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
   height: 100vh;
@@ -17,7 +17,8 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 300px;
 }
 
 @media screen and (max-aspect-ratio: 6000 / 4000) {
@@ -47,6 +48,7 @@ main {
           animation-iteration-count: 1000;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  font-size: 2rem;
 }
 
 .conlogo {

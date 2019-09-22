@@ -1,5 +1,5 @@
 body {
-  background: url("../images/aboutbkgrd.jpg");
+  background: url("../../docs/images/aboutbkgrd.jpg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
   height: 100vh;
@@ -17,8 +17,21 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
+  color: #f6ecde;
+  text-align: center;
   text-shadow: 2px 2px 6px black;
+  height: 600px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.aboutMe a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logos {
@@ -28,7 +41,6 @@ main {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 25%;
 }
 
 .logos img {

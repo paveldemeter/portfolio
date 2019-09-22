@@ -1,0 +1,44 @@
+body {
+  background: url("../../docs/images/workbkgrd.jpg");
+  background-repeat: round;
+  background-size: 100vw auto;
+  height: 100vh;
+}
+
+main {
+  margin: 0 350px;
+}
+
+.blog h2 {
+  text-align: center;
+  color: #f85204;
+  -webkit-text-decoration: red;
+          text-decoration: red;
+}
+
+.blog h1 {
+  color: #f85204;
+  text-align: center;
+  font-size: 50px;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.blog img {
+  height: 400px;
+  width: 500px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blog p {
+  color: #f6ecde;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-aspect-ratio: 5760 / 3840) {
+  body {
+    background-size: auto 100vh;
+  }
+}
+/*# sourceMappingURL=blogs.css.map */

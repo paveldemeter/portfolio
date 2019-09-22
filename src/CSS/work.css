@@ -1,0 +1,53 @@
+body {
+  background: url("../../docs/images/workbk1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  height: 100vh;
+}
+
+main {
+  height: 800px;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.work1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f6ecde;
+  text-align: center;
+  text-shadow: 2px 2px 6px #0a0a0a;
+  height: 200px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.quiz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-aspect-ratio: 6496 / 4331) {
+  body {
+    background-size: auto 100vh;
+  }
+}
+/*# sourceMappingURL=work.css.map */

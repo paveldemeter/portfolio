@@ -1,0 +1,44 @@
+@import './colors';
+// background sizing & background image
+body {
+  background: url("../../docs/images/workbkgrd.jpg");
+  background-repeat: round;
+  background-size: 100vw auto;
+  height: 100vh;
+
+}
+
+main {
+  margin: 0 350px;
+}
+// blog heading of page
+.blog h2 {
+  text-align: center;
+  color: $orange;
+  text-decoration:  red;
+}
+// Mini blog heading 
+.blog h1 {
+  color: $orange;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline red;
+}
+// images of blogs
+.blog img {
+ height: 400px;
+ width: 500px;
+ padding-left: 25%;
+ padding-right: 25%;
+}
+// blog content
+.blog p {
+  color: $maintxt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@media screen and (max-aspect-ratio: 5760 / 3840) {
+  body {
+   background-size: auto 100vh;
+  }
+}
