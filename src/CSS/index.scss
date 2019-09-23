@@ -1,9 +1,11 @@
 
+
 body {
     background: url("../../docs/images/index_background.jpg");
     background-repeat: no-repeat;
     background-size: 100vw auto;
     height: 100vh;
+    background-color: orangered;
 }
 
 main {
@@ -80,7 +82,16 @@ main {
 
 @media screen and (max-width: 800px){
     main .container {
-        h1, h2{
+        width: 375px;
+        background-repeat: repeat;
+        display: flex;
+        justify-content:center;
+        h1{
+            font-size: 60px;
+           
+        }
+        h2 { 
+            padding-right: 10%;
             font-size: 40px;
         }
     }

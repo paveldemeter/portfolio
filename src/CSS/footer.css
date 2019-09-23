@@ -24,7 +24,7 @@ input[class^="btn-"]:hover {
 }
 
 #main-ftr {
-  color: #f85204;
+  background-color: orangered;
 }
 
 #main-ftr .footer-content {
@@ -47,7 +47,7 @@ input[class^="btn-"]:hover {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
-  color: #722805;
+  color: black;
 }
 
 #main-ftr .footer-content .social .fab:hover {
@@ -62,19 +62,32 @@ input[class^="btn-"]:hover {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
-  color: #722805;
+  color: black;
 }
 
-#main-ftr .footer-content .social .fab:hover {
-  background: #f85204;
+#main-ftr .footer-content .social .fab:hover, .fas:hover {
+  background: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   #main-ftr .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #main-ftr .footer-content .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-left: 20%;
   }
 }
 /*# sourceMappingURL=footer.css.map */

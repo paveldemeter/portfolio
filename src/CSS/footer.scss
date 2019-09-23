@@ -26,7 +26,7 @@ input[class^="btn-"]:hover {
 }
 
 #main-ftr {
-  color:$orange;
+  background-color: orangered;
 }
 
 #main-ftr .footer-content {
@@ -44,7 +44,7 @@ input[class^="btn-"]:hover {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
-  color:rgb(114, 40, 5) }
+  color:black; }
 #main-ftr .footer-content .social .fab:hover {
 background: rgb(248, 82, 4); }
 
@@ -56,15 +56,24 @@ background: rgb(248, 82, 4); }
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
-  color:rgb(114, 40, 5);
+  color:black;
 }
 
-#main-ftr .footer-content .social .fab:hover {
-  background: rgb(248, 82, 4);
+#main-ftr .footer-content .social .fab:hover, .fas:hover {
+  background: white;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
+  
   #main-ftr .footer-content {
+    display: flex;
     flex-direction: column;
   }
+  #main-ftr .footer-content .social {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+
+   }
 }
+

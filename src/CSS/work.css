@@ -1,8 +1,9 @@
 body {
   background: url("../../docs/images/workbk1.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 100vw auto;
   height: 100vh;
+  background-color: orangered;
 }
 
 main {
@@ -52,6 +53,12 @@ h2 {
 @media screen and (max-aspect-ratio: 6496 / 4331) {
   body {
     background-size: auto 100vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quiz {
+    padding-top: 20%;
   }
 }
 /*# sourceMappingURL=work.css.map */
