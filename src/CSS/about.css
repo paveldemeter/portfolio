@@ -47,5 +47,9 @@ body {
   body {
     background-size: auto 100vh;
   }
+  .logos img {
+    height: 100px;
+    width: 50px;
+  }
 }
 /*# sourceMappingURL=about.css.map */
