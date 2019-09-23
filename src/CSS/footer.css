@@ -11,7 +11,7 @@
 }
 
 .btn-light {
-  color: #f85204;
+  color: #0462f8;
   width: auto;
   font-size: 20px;
 }
@@ -24,7 +24,7 @@ input[class^="btn-"]:hover {
 }
 
 #main-ftr {
-  color: #f85204;
+  color: #0462f8;
 }
 
 #main-ftr .footer-content {

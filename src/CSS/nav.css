@@ -19,7 +19,7 @@ header nav ul li {
 
 header nav ul li a {
   padding: 0rem;
-  color: #f85204;
+  color: #0462f8;
   text-decoration: none;
   border: 13px transparent solid;
   -webkit-transition: border-color 0.5s;
@@ -27,11 +27,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-color: #f85204;
+  border-color: #0462f8;
 }
 
 header nav ul li a.current {
-  border-color: #FAA195;
+  border-color: #95ddfa;
 }
 
 @media screen and (max-width: 800px) {

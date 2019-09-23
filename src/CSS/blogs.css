@@ -11,13 +11,13 @@ main {
 
 .blog h2 {
   text-align: center;
-  color: #f85204;
+  color: #0462f8;
   -webkit-text-decoration: red;
           text-decoration: red;
 }
 
 .blog h1 {
-  color: #f85204;
+  color: #0462f8;
   text-align: center;
   font-size: 50px;
   -webkit-text-decoration: underline red;
@@ -29,7 +29,7 @@ main {
 }
 
 .blog p {
-  color: #f6ecde;
+  color: #f6eede;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
