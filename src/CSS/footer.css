@@ -69,7 +69,7 @@ input[class^="btn-"]:hover {
   background: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #main-ftr .footer-content {
     display: -webkit-box;
     display: -ms-flexbox;
