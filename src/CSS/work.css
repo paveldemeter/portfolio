@@ -46,7 +46,7 @@ h2 {
 }
 
 .quiz img {
-  width: 100vw;
+  width: 80vw;
 }
 
 @media screen and (max-aspect-ratio: 6496 / 4331) {
