@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin: 0 350px;
+  margin: 0 20vw;
 }
 
 .blog h2 {
@@ -25,10 +25,7 @@ main {
 }
 
 .blog img {
-  height: 400px;
-  width: 500px;
-  padding-left: 25%;
-  padding-right: 25%;
+  width: 100%;
 }
 
 .blog p {

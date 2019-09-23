@@ -1,13 +1,9 @@
 // background sizing & background image
 body {
     background: url("../../docs/images/aboutbkgrd.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100vw auto;
     height: 100vh;
-}
-// main size of page
-main {
-    height: 800px;
 }
 // content inside main (paragraph)
 .aboutMe {
@@ -17,7 +13,6 @@ main {
     color: rgb(246, 236, 222);
     text-align: center;
     text-shadow: 2px 2px 6px black;
-    height: 600px;
     padding: 10px 10px;
     font-size: 20px;
     

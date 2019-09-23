@@ -36,7 +36,10 @@ main {
         animation-duration: 10s;
         animation-iteration-count: 1000;
         animation-direction: alternate;
-        
+
+        &:nth-child(2) {
+            padding-right: 50px;
+        }
     }
 
     h2 {
@@ -46,6 +49,7 @@ main {
         animation-duration: 8s;
         animation-iteration-count: 1000;
         animation-direction: alternate;
+
         
     }
 }

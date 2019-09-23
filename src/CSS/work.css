@@ -1,6 +1,6 @@
 body {
   background: url("../../docs/images/workbk1.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100vw auto;
   height: 100vh;
 }
@@ -43,6 +43,10 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 50px;
+}
+
+.quiz img {
+  width: 100vw;
 }
 
 @media screen and (max-aspect-ratio: 6496 / 4331) {

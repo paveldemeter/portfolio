@@ -41,6 +41,10 @@ main * {
           animation-direction: alternate;
 }
 
+.container h1:nth-child(2) {
+  padding-right: 50px;
+}
+
 .container h2 {
   font-size: 4rem;
   -webkit-animation-name: color2;
