@@ -30,7 +30,7 @@ Here I have attached the main diagram of my site-map. easily navigated.
 ### Desktop
 ![alt text](docs/screenshots/desktop_audit.png)
 ### Mobile
-![alt text](docs/screenshots/mobie_audit.png)
+![alt text](docs/screenshots/mobile_audit.png)
 
 ## Screen shots
 
