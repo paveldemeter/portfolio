@@ -6,7 +6,7 @@ GITHUB Repository
 https://github.com/paveldemeter/portfolio
 ## Link to URL
 
-Publish portfolio Website
+Published portfolio Website
 https://paveldemeter.github.io/portfolio/index.html
 
 
