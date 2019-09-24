@@ -24,16 +24,24 @@ My opinion is sometimes simple is better, Easier to view & understand. The desig
 
 
 Here I have attached the main diagram of my site-map. easily navigated.
-![alt text](docs/site_map.png)
+![alt text](docs/sitemap.png)
 
 ## Screen shots
 
 Here I have attached screen shots of my website, easily to view the whole website throughout.
+### Desktop
 ![alt text](docs/screenshots/home_page.png)
 ![alt text](docs/screenshots/about_page.png)
 ![alt text](docs/screenshots/blog_page.png)
 ![alt text](docs/screenshots/work_page.png)
 ![alt text](docs/screenshots/contact_page.png)
+### Mobile
+![alt text](docs/screenshots/index_mobile.png)
+![alt text](docs/screenshots/blog_mobile.png)
+![alt text](docs/screenshots/about_mobile.png)
+![alt text](docs/screenshots/work_mobile.png)
+![alt text](docs/screenshots/contact_mobile.png)
+
 
 
 ## Target Audience
