@@ -1,5 +1,5 @@
 body {
-  background: url("../../docs/images/aboutbkgrd.jpg");
+  background: url("../../docs/images/aboutbackground.jpg");
   background-repeat: repeat;
   background-size: 100vw auto;
   height: 100vh;
@@ -16,10 +16,12 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #f6ecde;
   text-align: center;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 4px 4px 5px black;
   padding: 10px 10px;
-  font-size: 20px;
+  font-size: 25px;
+  -webkit-text-stroke: 1.5px black;
 }
+
 
 .aboutMe a {
   display: -webkit-box;

@@ -1,5 +1,5 @@
 body {
-  background: url("../../docs/images/workbkgrd.jpg");
+  background: url("../../docs/images/workbackground.jpeg");
   background-repeat: round;
   background-size: 100vw auto;
   height: 100vh;
@@ -20,18 +20,30 @@ main {
 .blog h1 {
   color: #f85204;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+          text-shadow:  10px 10px 10px black;
 }
 
 .blog img {
   width: 100%;
 }
 
+.blog iframe {
+  width: 100%;
+}
+
+.blog video {
+  width: 100%;
+}
+
 .blog p {
   color: #f6ecde;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 20px;
+  text-shadow: 7px 7px 5px black;
 }
 
 @media screen and (max-aspect-ratio: 5760 / 3840) {

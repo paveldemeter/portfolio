@@ -1,5 +1,5 @@
 body {
-  background: url("../../docs/images/contactbkgrd.jpg");
+  background: url("../../docs/images/contactbackground.jpg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
   height: 100vh;
@@ -65,7 +65,7 @@ main {
           align-items: flex-end;
 }
 
-@-webkit-keyframes color2 {
+/* @-webkit-keyframes color2 {
   0% {
     color: whitesmoke;
   }
@@ -81,23 +81,23 @@ main {
   100% {
     color: whitesmoke;
   }
-}
+} */
 
 @keyframes color2 {
   0% {
-    color: whitesmoke;
+    color:orangered;
   }
   25% {
     color: rgba(0, 0, 0, 0);
   }
   50% {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
   }
   75% {
     color: rgba(0, 0, 0, 0);
   }
   100% {
-    color: whitesmoke;
+    color:orangered;
   }
 }
 /*# sourceMappingURL=contact.css.map */
